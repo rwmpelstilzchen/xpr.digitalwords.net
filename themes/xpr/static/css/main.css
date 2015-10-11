@@ -1,0 +1,122 @@
+@import url("ikonoj.css");
+
+body {
+	direction: RTL;
+	text-align: justify;
+
+	font: 18px Alef, sans-serif;
+	line-height: 1.5em;
+	background-color: white;
+	color: #111;
+
+	margin: 0em auto 2em;
+	width: 42em;
+	width: 64ch;
+	max-width: 80%;
+
+
+	min-width: 400px;
+	min-height: 200px;
+	padding: 1em;
+	/*margin: 5% 10%;*/
+	display: block;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+	font: 18px Alef, sans-serif;
+}
+
+a:link    { color: #A260BF; text-decoration: none;      }
+a:hover   { color: #A260BF; text-decoration: underline; }
+a:visited { color: #A260BF;                             }
+
+a.pure-button {
+	color: inherit !important;
+}
+
+h1 a { color: inherit !important }
+h2 a { color: inherit !important }
+h3 a { color: inherit !important }
+h4 a { color: inherit !important }
+h5 a { color: inherit !important }
+h6 a { color: inherit !important }
+
+#banner {
+	text-align: center;
+}
+
+#banner img {
+	width: 100%;
+	max-width: 900px;
+}
+
+/* #banner nav a:hover, #banner nav a:active,
+   #banner nav .active a:link, #banner nav .active a:visited {*/
+nav#menu ul li.active a {
+	color: red;
+	font-size: 200%;
+}
+
+#post-list {
+    margin-bottom: 1em;
+    margin-top: 2em;
+	list-style-type: none;
+}
+
+#post-list li {
+	margin-bottom: 3em;
+}
+
+pre {
+    margin: 2em 1em 2em 4em;
+}
+
+.kataloga-bildo {
+	float: left;
+	border: 0px;
+	max-width: 33%;
+	text-align: center;
+}
+
+.kataloga-bildo img {
+	max-width: 100%;
+}
+
+
+
+#menu{
+  margin-bottom: 2ex;
+  padding: 5px;
+/*  background: #FBFBFB;*/
+/*  font-size: 62.5%;*/
+  font-size: 90.0%;
+  background: #F6F6F6;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+}
+#menu ul{
+  margin: 0 auto;
+  text-align: center;
+}
+#menu li{
+  display: inline;
+  margin-left: 1em;
+}
+#menu li:last-child{
+  margin-left: 0;
+}
+#menu a:link,
+#menu a:visited{
+  color: #999;
+  white-space: nowrap;
+}
+#menu a:hover,
+#menu a:active {
+  text-decoration: underline;
+  color: #555;
+}
+#menu .ikono {
+	color: #BBB;
+}
