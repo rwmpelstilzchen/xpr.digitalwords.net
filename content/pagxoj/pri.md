@@ -42,6 +42,14 @@ slug: pri
 
 אם תרצו לקבל עותק עם אותיות גדולות מיוחד (אותיות קידוש־לבנה), לנוחות הקריאה, אכין לכם עותק כזה.
 
+
+
+<h2 id="retejo">האתר</h2>
+
+האתר מופק באמצעות מערכת [סטטית](https://www.staticgen.com/) בשם [פליקן](https://github.com/getpelican/pelican). קבצי המקור מאוחסנים [כאן](https://github.com/rwmpelstilzchen/xpr.digitalwords.net).
+
+
+
 -------
 
 יום מעניין וקריאה נעימה ומועילה,  

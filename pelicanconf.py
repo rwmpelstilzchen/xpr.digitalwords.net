@@ -12,6 +12,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'he'
 
+SUMMARY_MAX_LENGTH = None
+
 FEED_ALL_ATOM = 'abonrilato/atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None

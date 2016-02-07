@@ -14,7 +14,7 @@ FTP_TARGET_DIR=/
 
 SSH_HOST=xpr.digitalwords.net
 SSH_PORT=22
-SSH_USER=xpr
+SSH_USER=pushishit
 SSH_TARGET_DIR=xpr.digitalwords.net/
 
 S3_BUCKET=my_s3_bucket

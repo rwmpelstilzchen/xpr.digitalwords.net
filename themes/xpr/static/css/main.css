@@ -1,10 +1,11 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
 @import url("ikonoj.css");
 
 body {
 	direction: RTL;
 	text-align: justify;
 
-	font: 18px Alef, sans-serif;
+	font: 18px Alef, "Alef Hebrew", sans-serif;
 	line-height: 1.5em;
 	background-color: white;
 	color: #111;
@@ -25,7 +26,7 @@ body {
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here: */
-	font: 18px Alef, sans-serif;
+	font: 18px Alef, "Alef Hebrew", sans-serif;
 }
 
 a:link    { color: #A260BF; text-decoration: none;      }
@@ -65,8 +66,14 @@ nav#menu ul li.active a {
 	list-style-type: none;
 }
 
-#post-list li {
+#post-list hr {
+	margin-top: 3em;
 	margin-bottom: 3em;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid lightgray;
+    padding: 0; 
 }
 
 pre {
@@ -78,6 +85,7 @@ pre {
 	border: 0px;
 	max-width: 33%;
 	text-align: center;
+	margin-right: 1em;
 }
 
 .kataloga-bildo img {
@@ -119,4 +127,11 @@ pre {
 }
 #menu .ikono {
 	color: #BBB;
+}
+
+
+hr {
+	border:none;
+	border-top:1px dotted lightgray;
+	height:1px;
 }
