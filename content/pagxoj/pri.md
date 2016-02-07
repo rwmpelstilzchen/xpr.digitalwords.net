@@ -46,7 +46,7 @@ slug: pri
 
 <h2 id="retejo">האתר</h2>
 
-האתר מופק באמצעות מערכת [סטטית](https://www.staticgen.com/) בשם [פליקן](https://github.com/getpelican/pelican). קבצי המקור מאוחסנים [כאן](https://github.com/rwmpelstilzchen/xpr.digitalwords.net).
+האתר מופק באמצעות מערכת [סטטית](https://www.staticgen.com/) בשם [פליקן](https://github.com/getpelican/pelican). קבצי המקור מאוחסנים [כאן](https://gitlab.com/rwmpelstilzchen/xpr.digitalwords.net).
 
 
 
